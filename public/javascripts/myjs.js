@@ -30,178 +30,178 @@ document.getElementById('links').onclick = function(event) {
 
 var myJsonObj = [{
     title:"bakkupeta",
-    path:"DSCN7474.jpg"
+    path:"DSCN7474.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7475.jpg"
+    path:"DSCN7475.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7478.jpg"
+    path:"DSCN7478.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7480.jpg"
+    path:"DSCN7480.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7481.jpg"
+    path:"DSCN7481.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7484.jpg"
+    path:"DSCN7484.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7491.jpg"
+    path:"DSCN7491.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7492.jpg"
+    path:"DSCN7492.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7496.jpg"
+    path:"DSCN7496.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7499.jpg"
+    path:"DSCN7499.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7501.jpg"
+    path:"DSCN7501.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7517.jpg"
+    path:"DSCN7517.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7524.jpg"
+    path:"DSCN7524.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7526.jpg"
+    path:"DSCN7526.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7538.jpg"
+    path:"DSCN7538.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7540.jpg"
+    path:"DSCN7540.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7542.jpg"
+    path:"DSCN7542.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7544.jpg"
+    path:"DSCN7544.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7550.jpg"
+    path:"DSCN7550.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7555.jpg"
+    path:"DSCN7555.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7557.jpg"
+    path:"DSCN7557.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7560.jpg"
+    path:"DSCN7560.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7565.jpg"
+    path:"DSCN7565.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7570.jpg"
+    path:"DSCN7570.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7573.jpg"
+    path:"DSCN7573.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7576.jpg"
+    path:"DSCN7576.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7577.jpg"
+    path:"DSCN7577.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7579.jpg"
+    path:"DSCN7579.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7582.jpg"
+    path:"DSCN7582.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7583.jpg"
+    path:"DSCN7583.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7588.jpg"
+    path:"DSCN7588.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7589.jpg"
+    path:"DSCN7589.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7591.jpg"
+    path:"DSCN7591.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7595.jpg"
+    path:"DSCN7595.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7596.jpg"
+    path:"DSCN7596.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7602.jpg"
+    path:"DSCN7602.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7474.jpg"
+    path:"DSCN7474.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7608.jpg"
+    path:"DSCN7608.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7611.jpg"
+    path:"DSCN7611.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7663.jpg"
+    path:"DSCN7663.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7665.jpg"
+    path:"DSCN7665.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7675.jpg"
+    path:"DSCN7675.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7676.jpg"
+    path:"DSCN7676.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7678.jpg"
+    path:"DSCN7678.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7686.jpg"
+    path:"DSCN7686.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7690.jpg"
+    path:"DSCN7690.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7691.jpg"
+    path:"DSCN7691.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7694.jpg"
+    path:"DSCN7694.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7701.jpg"
+    path:"DSCN7701.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7702.jpg"
+    path:"DSCN7702.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7703.jpg"
+    path:"DSCN7703.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7705.jpg"
+    path:"DSCN7705.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7711.jpg"
+    path:"DSCN7711.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7711.jpg"
+    path:"DSCN7711.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7715.jpg"
+    path:"DSCN7715.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7717.jpg"
+    path:"DSCN7717.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7474.jpg"
+    path:"DSCN7474.JPG"
 },{
     title:"bakkupeta",
-    path:"DSCN7720.jpg"
+    path:"DSCN7720.JPG"
 }];
 
 setTimeout(function() {
