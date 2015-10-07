@@ -1,150 +1,66 @@
 <!DOCTYPE>
 <html>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="http://bootswatch.com/cosmo/bootstrap.css">
-<style type="text/css">
-h3{
-	text-align : center;
-	/*margin: 14px 296px 0px 0px;*/
-	font-weight: 500;
-}
-.form-horizontal{
-	margin-top: 50px;
-}
-.mycustom{
-	width: 130px;
-}
-/* Large desktop */
-@media (max-width: 1200px) {
-	.mycustom{
-		width: 145px;
-	}
-}
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 992px) {
-	.mycustom{
-		width: 76px;
-	}
-}
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
-	.mycustom{
-		width: 130px;
-	}
-}
-/* Landscape phones and down */
-@media (max-width: 480px) {
-	.mycustom{
-		width: 108px;
-	}	
-}
-navbar-nav li:hover{
-	background-color: #a35471;
-}
-</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="images/fav" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
+    <link rel="stylesheet" href="css/blueimp-gallery.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-<div class="navbar navbar-default navbar-fixed-top" style="background-color: #a35471">
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand" href="#">BAKKU</a>
-  </div>
-  <div class="navbar-collapse collapse navbar-responsive-collapse">
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">What we do?</a></li>
-      <!-- <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Action</a></li>
-          <li><a href="#">Another action</a></li>
-          <li><a href="#">Something else here</a></li>
-          <li class="divider"></li>
-          <li class="dropdown-header">Dropdown header</li>
-          <li><a href="#">Separated link</a></li>
-          <li><a href="#">One more separated link</a></li>
-        </ul>
-      </li> -->
-    </ul>
-    <!-- <form class="navbar-form navbar-left center">
-      <input class="form-control col-lg-8" placeholder="Search" type="text">
-    </form> -->
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="#">SignIn</a></li>
-      <li><a href="#">SignUp</a></li>
-      <!-- <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Action</a></li>
-          <li><a href="#">Another action</a></li>
-          <li><a href="#">Something else here</a></li>
-          <li class="divider"></li>
-          <li><a href="#">Separated link</a></li>
-        </ul>
-      </li> -->
-    </ul>
-  </div>
-</div>
+    <div class="navbar navbar-default" style="background-color: #a35471">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">బక్కుపేట</a>
+        </div>
+        <div class="navbar-collapse collapse navbar-responsive-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">వినాయక చవితి ఫోటోలు</a></li>
+                <!-- <li><a href="#">What we do?</a></li> -->
+            </ul>
+            <!-- <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">SignIn</a></li>
+                <li><a href="#">SignUp</a></li>
+            </ul> -->
+        </div>
+    </div>
+    <div class="container">
+        <h3>MY GALLERY</h3>
+        <div id="blueimp-gallery" class="blueimp-gallery">
+            <div class="slides"></div>
+            <h3 class="title"></h3>
+            <a class="prev">‹</a>
+            <a class="next">›</a>
+            <a class="close">×</a>
+            <a class="play-pause"></a>
+            <ol class="indicator"></ol>
+        </div>
+        <div id="links">
+            <a href="images/bkpvinayaka.jpg" title="Banana">
+                <img src="images/bkpvinayaka.jpg" alt="Banana">
+            </a>
+            <a href="images/bkpyouth.jpg" title="Apple">
+                <img src="images/bkpyouth.jpg" alt="Apple">
+            </a>
+            <a href="images/bkpvinayaka.jpg" title="Orange">
+                <img src="images/bkpvinayaka.jpg" alt="Orange">
+            </a>
+        </div>
+    </div>
+    <script src="javascripts/jquery.min.js"></script>
+    <script src="javascripts/bootstrap.min.js"></script>
+    <script src="javascripts/jquery.blueimp-gallery.min.js"></script>
+    <script src="javascripts/bootstrap-image-gallery.min.js"></script>
+    <script src="javascripts/blueimp-gallery.min.js"></script>
 
-<!-- SignIn Form -->
-
-	<div class="container">
-	<div class="container">
-	<form role="form" class="form-horizontal">
-	<div class="form-group">
-	<h3>SignIn</h3>
-		<!-- <div class="row">
-	<label for="login" class="control-label col-xs-12 col-sm-offset-1 col-sm-4 col-lg-6 pull-left">SignIn</label>
-	<label for="login" class="control-label col-xs-12 col-sm-offset-1 col-sm-4 col-lg-1">SignUp</label>
-	<a class="btn btn-link pull-left" href="#" class="control-label col-xs-12 col-sm-offset-1 col-sm-4 col-lg-6">SignUp</a>
-		</div>	 -->
-	</div>
-	<div class="form-group">
-		<label for="uname" class="control-label col-xs-12 col-sm-4">Email</label>
-		<div class="col-xs-12 col-sm-3 col-md-4 col-lg-3">
-			<input type="text"  class="form-control input-sm" placeholder="Email" required>
-		</div>
-	</div>
-	<div class="form-group">
-		<label for="uname" class="control-label col-xs-12 col-sm-4">Password</label>
-		<div class="col-xs-12 col-sm-3 col-md-4 col-lg-3">
-			<input type="password"  class="form-control input-sm" placeholder="Password" required>
-		</div>
-	</div>
-	<div class="form-group">
-	<div class="checkbox col-xs-12 col-sm-offset-4 col-sm-4 col-lg-offset-4 col-lg-4">
-		<label><input type="checkbox">Remember Me</label>
-	</div>
-	</div>
-	<div class="form-group">
-	<div class="span2 col-xs-12 col-sm-offset-4 col-sm-4 col-lg-offset-4 col-lg-6">
-		<a type="submit" href="#" class="btn btn-default btn-sm mycustom">Submit</a>
-		<a type="submit" href="#" class="btn btn-default btn-sm mycustom">Reset</a>
-	</div>
-	</div>
-	</form>
-	</div>
-	<div class="row">
-		<div class="col-xs-offset-0 col-xs-6 col-sm-offset-4 col-sm-2 col-md-offset-4 col-md-2 col-lg-offset-4 col-lg-2">
-			<a class="btn btn-link" href="#">Forgot Password?</a>
-		</div>
-		<a class="btn btn-link" href="#">SignUp</a>
-	</div>
-	<!-- <div class="form-group col-xs-12 col-sm-offset-4 col-sm-4 col-lg-offset-4 col-lg-4">
-	<a class="btn btn-link" href="#">Forgot Password?</a>
-	New to NisumInnovator?<a class="btn btn-link" href="#">SignUp</a>	
-	</div> -->
-	</div>
-
-	<!-- SignIn form ends -->
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="javascripts/myjs.js"></script>
 </body>
+
 </html>

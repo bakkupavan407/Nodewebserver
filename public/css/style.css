@@ -1,0 +1,42 @@
+h3{
+	text-align : center;
+	/*margin: 14px 296px 0px 0px;*/
+	font-weight: 500;
+}
+.form-horizontal{
+	margin-top: 50px;
+}
+.mycustom{
+	width: 130px;
+}
+/* Large desktop */
+@media (max-width: 1200px) {
+	.mycustom{
+		width: 145px;
+	}
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 992px) {
+	.mycustom{
+		width: 76px;
+	}
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	.mycustom{
+		width: 130px;
+	}
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	.mycustom{
+		width: 108px;
+	}	
+}
+navbar-nav li:hover{
+	background-color: #a35471;
+}
+
+.navbar-brand {
+	color: #fff !important;
+}
