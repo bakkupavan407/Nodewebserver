@@ -46,10 +46,6 @@ h3 {
     .mycustom {
         width: 108px;
     }
-    /*#links img {
-        width: 50px;
-        height: 106px;
-    }*/
 }
 
 navbar-nav li:hover {
@@ -58,4 +54,10 @@ navbar-nav li:hover {
 
 .navbar-brand {
     color: #fff !important;
+}
+
+#links img {
+    margin-right: 20px;
+    width: 140px;
+    height: 140px;
 }

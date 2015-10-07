@@ -35,15 +35,16 @@ setTimeout(function() {
         maincontainer = document.getElementById('links');
 
         subcontainer = document.createElement('div');
-        subcontainer.className = "col-sm-6 col-md-3";
+        // subcontainer.className = "col-sm-6 col-md-3";
+        subcontainer.style.display = "inline-block";
 
         anchortag = document.createElement('a');
         anchortag.href = "images/" + myJsonObj[i].path;
-        anchortag.className = "thumbnail";
+        // anchortag.className = "thumbnail";
 
         imgtag = document.createElement('img');
-        imgtag.src = "../images/" + myJsonObj[i].path;
-        imgtag.className = "img-responsive";
+        imgtag.src = "images/" + myJsonObj[i].path;
+        imgtag.className = "img-responsive thumbnail";
 
         anchortag.appendChild(imgtag);
 
